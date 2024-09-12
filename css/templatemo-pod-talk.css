@@ -913,7 +913,8 @@ main {
   border: 1px solid var(--white-color);
   border-radius: var(--border-radius-small);
   width: 80%;
-  position: relative;
+  text-align: center;
+  display: inline-block;
   top: 12px;
   padding: 35px;
 }
@@ -1119,7 +1120,14 @@ main {
 	}
 }
 
+
+
 @media screen and (max-width: 991px) {
+  .site-footer-title{
+    margin-top: 5%;
+
+  }
+
   h1 {
     font-size: 48px;
   }
@@ -1235,6 +1243,7 @@ main {
     font-size: 20px;
   }
 }
+
 
 @media screen and (max-width: 414px) {
   .search-form {
