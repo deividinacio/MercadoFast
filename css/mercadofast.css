@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 584 Pod Talk
-
-https://templatemo.com/tm-584-pod-talk
-
-*/
 
 
 
@@ -197,7 +191,19 @@ main {
   position: relative;
 }
 
-
+.popular img{
+position: absolute;
+right: -25px;
+top: -25px;
+}
+.preco{
+  font-weight: bold;
+  font-size: 22px;
+}
+.old-preco{
+  text-decoration: line-through;
+  font-size: 13px;
+}
 /*---------------------------------------
   CUSTOM ICON COLOR               
 -----------------------------------------*/
