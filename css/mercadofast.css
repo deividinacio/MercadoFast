@@ -191,19 +191,7 @@ main {
   position: relative;
 }
 
-.popular img{
-position: absolute;
-right: -25px;
-top: -25px;
-}
-.preco{
-  font-weight: bold;
-  font-size: 22px;
-}
-.old-preco{
-  text-decoration: line-through;
-  font-size: 13px;
-}
+
 /*---------------------------------------
   CUSTOM ICON COLOR               
 -----------------------------------------*/
@@ -720,6 +708,49 @@ top: -25px;
 .custom-block .custom-block-info + div .badge:hover {
   background-color: var(--secondary-color);
 }
+
+/*Inicio Add para Card Popular */
+
+.custom-block-full-2{
+  background-color: var(--section-bg-color);
+  border: 2px solid var(--primary-color);
+  width: 80%;
+  cursor: pointer;
+}
+
+.custom-block-full-2 .custom-block-info-2 {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.custom-block-full-2 .custom-block-image-2 {
+  width: 100%;
+  height: 210px;
+}
+
+ /* imagem Produto, Preço, autor, editora  */
+
+ .popular img{
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  }
+  .preco{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .old-preco{
+    text-decoration: line-through;
+    font-size: 13px;
+  }
+  .editora, .autor{
+    font-weight: bold;
+  }
+  .boby-card{
+    text-align: justify;
+    word-wrap: break-word; /* usado para quebrar o texto*/
+  }
+/*Fim Add para Card Popular*/
 
 .custom-block-full {
   background-color: var(--section-bg-color);
