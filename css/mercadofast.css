@@ -712,10 +712,11 @@ main {
 /*Inicio Add para Card Popular */
 
 .custom-block-full-2{
-  background-color: var(--section-bg-color);
+  background-color: white;
   border: 2px solid var(--primary-color);
   width: 80%;
   cursor: pointer;
+  
 }
 
 .custom-block-full-2 .custom-block-info-2 {
@@ -730,6 +731,11 @@ main {
 
  /* imagem Produto, Preço, autor, editora  */
 
+ .card {
+  display: flex;
+  align-items: center;
+  border: none;
+ }
  .popular img{
   position: absolute;
   right: -25px;
@@ -737,7 +743,7 @@ main {
   }
   .preco{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
   }
   .old-preco{
     text-decoration: line-through;
@@ -750,6 +756,7 @@ main {
     text-align: justify;
     word-wrap: break-word; /* usado para quebrar o texto*/
   }
+
 /*Fim Add para Card Popular*/
 
 .custom-block-full {
